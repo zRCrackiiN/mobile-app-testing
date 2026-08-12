@@ -1,0 +1,12 @@
+{
+  "name": "nyanBOX",
+  "version": "1.6.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "nyanbox-full.bin", "offset": 0 }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "devices": [
+    {
+      "name": "nyanBOX",
+      "version": "v1.6.0",
+      "description": "Stock nyanBOX firmware",
+      "manifest": "nyanbox/manifest.json"
+    }
+  ]
+}

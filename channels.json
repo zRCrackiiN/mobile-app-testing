@@ -1,0 +1,23 @@
+{
+  "channels": [
+    {
+      "name": "Nyan Devices (stable)",
+      "kind": "jsonCatalogue",
+      "url": "https://zrcrackiin.github.io/mobile-app-testing/catalogue.json"
+    },
+    {
+      "name": "ESP32Marauder",
+      "kind": "githubRepos",
+      "repos": ["justcallmekoko/ESP32Marauder"],
+      "includePrereleases": false,
+      "useManifest": false
+    },
+    {
+      "name": "Bruce",
+      "kind": "githubRepos",
+      "repos": ["BruceDevices/firmware"],
+      "includePrereleases": false,
+      "useManifest": false
+    }
+  ]
+}

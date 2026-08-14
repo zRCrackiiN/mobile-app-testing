@@ -18,6 +18,21 @@
       "repos": ["BruceDevices/firmware"],
       "includePrereleases": false,
       "useManifest": false
+    },
+    {
+      "name": "Bit Pirate",
+      "kind": "githubRepos",
+      "repos": ["geo-tp/ESP32-Bit-Pirate"],
+      "includePrereleases": false,
+      "useManifest": false
+    },
+    {
+      "name": "Meshtastic",
+      "kind": "githubRepos",
+      "repos": ["meshtastic/firmware"],
+      "includePrereleases": false,
+      "useManifest": false,
+      "zipBundle": true
     }
   ]
 }

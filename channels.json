@@ -10,21 +10,24 @@
       "kind": "githubRepos",
       "repos": ["justcallmekoko/ESP32Marauder"],
       "includePrereleases": false,
-      "useManifest": false
+      "useManifest": false,
+      "zipBundle": false
     },
     {
       "name": "Bruce",
       "kind": "githubRepos",
       "repos": ["BruceDevices/firmware"],
       "includePrereleases": false,
-      "useManifest": false
+      "useManifest": false,
+      "zipBundle": false
     },
     {
       "name": "Bit Pirate",
       "kind": "githubRepos",
       "repos": ["geo-tp/ESP32-Bit-Pirate"],
       "includePrereleases": false,
-      "useManifest": false
+      "useManifest": false,
+      "zipBundle": false
     },
     {
       "name": "Meshtastic",
@@ -33,6 +36,33 @@
       "includePrereleases": false,
       "useManifest": false,
       "zipBundle": true
+    },
+    {
+      "name": "MeshCore (Companion)",
+      "kind": "githubRepos",
+      "repos": ["meshcore-dev/MeshCore"],
+      "includePrereleases": false,
+      "useManifest": false,
+      "zipBundle": false,
+      "tagFilter": "companion-"
+    },
+    {
+      "name": "MeshCore (Repeater)",
+      "kind": "githubRepos",
+      "repos": ["meshcore-dev/MeshCore"],
+      "includePrereleases": false,
+      "useManifest": false,
+      "zipBundle": false,
+      "tagFilter": "repeater-"
+    },
+    {
+      "name": "MeshCore (Room Server)",
+      "kind": "githubRepos",
+      "repos": ["meshcore-dev/MeshCore"],
+      "includePrereleases": false,
+      "useManifest": false,
+      "zipBundle": false,
+      "tagFilter": "room-server-"
     }
   ]
 }
